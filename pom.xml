@@ -5,7 +5,7 @@
 	<artifactId>dynamodb-geo</artifactId>
 	<packaging>jar</packaging>
 	<name>Amazon DynamoDB Geo on the AWS SDK for Java</name>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>Geo Library for Amazon DynamoDB provides methods to create, retrieve, 
 	and query for geo-spatial data records in Amazon DynamoDB tables.
 	</description>
@@ -90,6 +90,7 @@
 		</pluginManagement>
 
 		<plugins>
+		<!--  
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
@@ -103,6 +104,7 @@
 					</execution>
 				</executions>
 			</plugin>
+		-->
 		</plugins>
 	</build>
 
